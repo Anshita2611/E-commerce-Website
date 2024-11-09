@@ -1,0 +1,108 @@
+h3{
+    color: aqua;
+}
+h5{
+    color: blue;
+}
+.navbar{
+    background-color: rgb(55, 3, 3);
+}
+.navbar-nav .nav-item .nav-link{
+    color: aliceblue;
+}
+.navbar-nav .nav-item .nav-link:hover .navbar-nav .nav-item .nav-linkactive{
+    color: aliceblue;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+    color: aliceblue;
+}
+.main-bg{
+    background-color: #9668CF;
+    padding: 100px 50px 70px 40px;
+    margin: 50px;
+}
+.main-bg h1, .main-bg-1 h1, .main-bg-2 h1, .main-bg-3 h1{
+    text-align: center;
+    color: #64F6E6;
+    font-size: 50px;
+}
+.main-bg-1{
+    background-image: linear-gradient(120deg, #64F6E6, #215953);
+}
+.main-bg-2{
+    background-image: url(images/img-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 50px;
+}
+.main-bg-3{
+    background-image: url(images/img-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.main-bg-op{
+    background: rgba(0, 0, 0, .7);
+    height: 300px;
+}
+.main-bg-3 h1{
+    text-align: center;
+    color: #64F6E6;
+    font-size: 60px;
+    padding: 100px 50px;
+}
+.main-container{
+    display: flex;
+    padding: 50px;
+}
+.box{
+    width: 33.33%;
+    margin: 10px ;
+    border: 1px solid #000101;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box:hover{
+    border:none;
+    box-shadow: 0px 3px ;
+}
+.box:hover .box-content h4{
+color: #64f68d;
+}
+.box:hover .box-img img{
+    transform: scale(1.05);
+    transition: .5s;
+}
+.box-img{
+    height: 300px;
+}
+.box-content{
+    padding: 10px;
+}
+.box-content h4{
+    color: #030a0b;
+}
+.box-content p{
+    opacity: .7;
+    margin-bottom: 20px;
+}
+.btn-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-style{
+    text-decoration: none;
+    background-color: linear-gardient(90deg, #EC5A88, #913955 );
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: rgb(40, 26, 146);
+}
+.btn-style:hover{
+    background-color: linear-gardient(90deg,#913955, #EC5A88);
+    box-shadow: 0px 3px 10px 0px azure;
+}
+.card-style{
+    border: none !important;
+    background-color: beige;
+}
